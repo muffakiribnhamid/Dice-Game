@@ -9,7 +9,7 @@ const Button = styled.button`
 `;
 
 
-function StartGame() {
+function StartGame({toggle}) {
   return (
     <div className="main">
         <div className="left">
@@ -17,7 +17,7 @@ function StartGame() {
         </div>
         <div className="right">
             <h1>DICE GAME</h1>
-            <Button>Play Now</Button>
+            <Button onClick={toggle}>Play Now</Button>
         </div>
     </div>
   )
