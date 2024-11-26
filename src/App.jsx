@@ -20,7 +20,7 @@ function App() {
         isGameStarted ? <GamePlay/> : <StartGame toggle={toggleGamePlay}/>
       }
 
-      <p className='made'>Made with ❤️ by <u>Muffakir Hamid</u></p>
+      <p className='made'>Made with ❤️ by <u><a href="https://github.com/muffakiribnhamid" target='_blank'>Muffakir Hamid</a></u></p>
     
     </>
     )
