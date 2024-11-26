@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Full viewport height */
+    min-height: 80vh; /* Full viewport height */
     max-width: 100%; /* Ensure no horizontal overflow */
     padding: 16px; /* Add padding for small devices */
 }
@@ -101,4 +101,13 @@ body {
     .main {
         padding: 8px; /* Reduce padding for extra-small screens */
     }
+}
+
+
+.made {
+    display: fle;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
 }
