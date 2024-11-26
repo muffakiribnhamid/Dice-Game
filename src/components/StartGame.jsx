@@ -13,7 +13,7 @@ function StartGame({toggle}) {
   return (
     <div className="main">
         <div className="left">
-            <img className='img' src="src\assets\dices 1.png" alt="" />
+            <img className='img' src="images/dices 1.png" alt="" />
         </div>
         <div className="right">
             <h1>DICE GAME</h1>

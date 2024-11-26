@@ -9,7 +9,7 @@ function RoleDice({
    <DiceContainer>
     <div className='dice'
     onClick={() => roleDice()}>
-        <img src={`/src/assets/images/dice_${currentDice}.png`} alt="Dice 1 " />
+        <img src={`images/dice_${currentDice}.png`} alt="Dice 1 " />
     </div>
     <p>Click on Dice to roll</p>
    </DiceContainer>
